@@ -1,0 +1,12 @@
+#hi{
+	color: blue;
+	font-size: 21px;
+}
+.show{
+	color: red;
+	font-size: 30px;
+}
+p:: first-letter{ 
+	color: green;
+
+}

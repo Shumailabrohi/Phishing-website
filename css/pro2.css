@@ -1,0 +1,43 @@
+.hi1{
+    background: rgb(159, 73, 240);
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+   
+    
+}
+.hi{
+    border-style: none;
+    background: none;
+    border: rgb(255, 255, 255) solid;  
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.k{
+    font-family: "Billabong", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.box{
+   text-align:center;
+    width: 500px;
+    height: 400px;
+    padding-left: 60px;
+    position: absolute;
+     right: 50%;
+    left: 40%;
+    top: 30%;
+    transform: translate(-50px, -50px);
+   background:rgb(255, 255, 255);
+   padding-bottom:60px ;
+}
+.box input[type="email"], .box input[type="password"]{
+    text-align:center;
+    padding: 10px;
+    margin-left: 100px;  
+     
+}
+.box input[type="login"]{
+    padding: 10px;
+    padding-left: 90px;
+}

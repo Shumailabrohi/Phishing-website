@@ -1,0 +1,27 @@
+
+.hi{
+    background: blueviolet;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 240, 252);
+}
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}

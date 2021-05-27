@@ -1,0 +1,139 @@
+body {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(19, 109, 112);
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.footer{
+  background-color: rgb(7, 66, 68);
+  max-width: 3000px;
+ 
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 300;
+  color: #f1f1f1;
+  display: block;
+
+
+}
+.box{
+ padding-left:0px;
+ padding-top: 60px;
+ 
+ 
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+font-size: 18px;
+color: rgb(184, 243, 243);
+text-transform: capitalize;
+margin-bottom: 30px;
+position: relative;
+padding-left: 30px;
+}
+.footer-col ul li:not(:last-child){
+ margin-bottom: 10px;
+
+}
+.footer-col h4 ::before{
+ content: ' ';
+ position: absolute;
+ left: 0;
+ bottom: -10px;
+ background-color: white;
+ height: 2px;
+ box-sizing: border-box;
+ width: 50px;
+}
+.main-box{
+  display: flex;
+  /* background-color: blue; */
+}
+.img-box{
+  /* background-color: #04AA6D; */
+  width: 50%;
+}
+.form-one{
+  float: right;
+  /* background-color: red; */
+  width: 50%;
+  padding: 20px;
+  background-color: lightblue;
+
+
+}
+.btn{
+  text-align: center;
+}
+input:focus{
+  background-color: #fff;
+}
+.box input[type="text"], .box input[type="password"]{
+  border: none;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid grey;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: beige;
+ border-radius: 24px;
+ }
+ .box input[type="submit"]{
+   border: none;
+   background: none;
+   display: block;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid #0d1b3a;
+   padding: 14px 10px;
+   width: 100px;
+   outline: none;
+   color:rgba(24, 31, 129, 0.333);
+  border-radius: 24px;
+  }
+  
+ 
+

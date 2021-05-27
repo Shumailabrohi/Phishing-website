@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(245, 233, 202);
+}
+
+@media screen and (max-width: 500px) {
+    body{
+       background:  rgb(230, 126, 126); 
+    }
+}
+table{
+    border-color: rgb(224, 23, 56);
+    border-style: groove;
+   
+}
+.box{
+   
+    border: teal 10px solid;
+    background: teal;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    resize: both;
+    cursor: grabbing;
+   
+    
+}
